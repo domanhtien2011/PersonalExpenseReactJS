@@ -1,0 +1,6 @@
+/ This file acts as a bride between my React Components and Rails App
+
+/ This helper method will receive the name of the React component that I want to render along with the data we want to pass into it and this helper is available since I am using the gem 'react-rails
+
+/ The content of @records are the property of the Record component'
+= react_component 'Records', { data: @records }
